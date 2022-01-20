@@ -5,7 +5,14 @@
  * - "NUL" s'il est nul
  */
 function signe(nombre) {
-
+    if(nombre > 0){
+        return "POSITIVE";
+    } else if(nombre < 0){
+        return "NEGATIVE"
+    }else{
+        return "NUL"
+    }
+    
 }
 
 /**
